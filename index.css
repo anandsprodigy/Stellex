@@ -58,9 +58,10 @@
         bottom: -30%;
         width: 300px;
         height: 540px;
-        background-color: #333;
-        border-radius: 21px;
-        -webkit-transform: rotate(30deg);
+        background-image: url("images/assets/P3.png");
+        background-color: #e8c7c7;
+        background-repeat: none;
+        background-size: 550px;
         transform: rotate(30deg);
     }
 
@@ -69,6 +70,36 @@
         right: auto;
         bottom: 0;
         left: 5%;
-        background-color: #e5e5e5;
+        background-image: url(images/assets/P3.png);
+        background-color: #e8c7c7;
+        background-repeat: none;
+
     }
-    
+
+    .social-icons{
+        font-size: 1.5rem;
+    }
+
+
+    a {
+        color: rgb(20 21 20 / 90%);
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      .nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: #8f9194;
+        text-decoration: none;
+        background: 0 0;
+        border: 0;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+
+    small{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
