@@ -7,14 +7,9 @@
     font-family: 'Nunito', sans-serif;
 }
 
-#left-header{
+.navcontainer{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
-}
-
-#left-header ul li{
-    text-decoration: none;
-    list-style-type: none;
+    justify-content: space-between;
+    width: 100vw;
 }
